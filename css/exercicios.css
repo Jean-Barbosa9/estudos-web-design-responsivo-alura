@@ -1,9 +1,14 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .secao {
-  width: 33%;
-  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%
 }
 
 .mini {
-  width: 50%;
-  float: left;
+  flex-basis: 50%;
 }
