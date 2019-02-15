@@ -1,5 +1,28 @@
 .container {
   display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 0.5em 0;
+}
+
+.barra-nav,.menu-principal {
+  display: flex;
+  align-items: center;
+} 
+
+.barra-nav {
+  margin: 0.4em 0;
+}
+
+.logo,.secao {
+  padding: 0 1%;
+}
+
+.destaques {
+  margin-top: 1em;
   flex-wrap: wrap;
 }
 
@@ -7,6 +30,10 @@
   display: flex;
   flex-wrap: wrap;
   flex-basis: 33%
+}
+
+img {
+  max-width: 100%;
 }
 
 .mini {
