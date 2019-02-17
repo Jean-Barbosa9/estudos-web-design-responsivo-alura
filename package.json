@@ -1,0 +1,23 @@
+{
+  "name": "web-design-responsivo-alura",
+  "version": "1.0.0",
+  "description": "Projeto de estudo de acompanhamento do curso de Web Design Responsivo do Alura",
+  "main": "index.js",
+  "scripts": {
+    "start":"node browser-sync.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Barbosa9/estudos-web-design-responsivo-alura.git"
+  },
+  "author": "Jean Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-Barbosa9/estudos-web-design-responsivo-alura/issues"
+  },
+  "homepage": "https://github.com/Jean-Barbosa9/estudos-web-design-responsivo-alura#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "express": "^4.16.4"
+  }
+}

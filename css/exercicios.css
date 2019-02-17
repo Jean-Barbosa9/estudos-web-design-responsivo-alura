@@ -1,16 +1,5 @@
-.container {
-  display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 header {
   padding: 0.5em 0;
-}
-
-.barra-nav,.menu-principal {
-  display: flex;
-  align-items: center;
 }
 
 .barra-nav {
@@ -35,17 +24,6 @@ header {
   flex-basis: 100%
 }
 
-@media (min-width: 600px) {
-  .secao {
-    flex-basis: 50%;
-  }
-}
-@media (min-width: 1000px) {
-  .secao {
-    flex-basis: 33.333%;
-  }
-}
-
 img {
   max-width: 100%;
 }
@@ -58,9 +36,29 @@ img {
   html {
     font-size: 1.125em;
   }
+
+ .barra-nav,.menu-principal {
+    display: flex;
+    align-items: center;
+  }
+  .secao {
+    flex-basis: 50%;
+  }
 }
 @media (min-width: 1000px) {
   html {
     font-size: 1.25em;
   }
+
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .secao {
+    flex-basis: 33.333%;
+  }
 }
+
+

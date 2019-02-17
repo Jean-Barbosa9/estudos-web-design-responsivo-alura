@@ -1,44 +1,42 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<title>Notícias.com</title>
-
-	<link rel="stylesheet" href="css/estilo.css">
-	<link rel="stylesheet" href="css/exercicios.css">
+  <meta charset="UTF-8">
+  <title>Notícias.com</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/exercicios.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body>
 
-	<header>
-		<div class="container">
+  <header>
+    <div class="container">
+      <h1 class="logo">
+        <img src="img/logo.png" alt="Notícias.com">
+      </h1>
 
-			<h1 class="logo">
-				<img src="img/logo.png" alt="Notícias.com">
-			</h1>
+      <nav class="barra-nav">
+        <ul class="menu-principal">
+          <li><a href="noticias.html" class="noticias">Notícias</a>
+          <li><a href="esportes.html" class="esportes">Esportes</a>
+          <li><a href="famosos.html" class="famosos">Famosos</a>
+        </ul>
 
-			<nav class="barra-nav">
-				<ul class="menu-principal">
-					<li><a href="noticias.html" class="noticias">Notícias</a>
-					<li><a href="esportes.html" class="esportes">Esportes</a>
-					<li><a href="famosos.html" class="famosos">Famosos</a>
-				</ul>
+        <form class="busca">
+          <input type="search" id="campo-busca">
+          <button type="submit">Buscar</button>
+        </form>
+      </nav>
+    </div>
+  </header>
 
-				<form class="busca">
-					<input type="search" id="campo-busca">
-					<button type="submit">Buscar</button>
-				</form>
-			</nav>
-		</div>
-	</header>
+  <main class="destaques container">
 
-	<main class="destaques container">
-
-		<div class="secao">
-
-			<a href="noticia1.html" class="chamada noticias principal">
-				<h2>Descoberto mais um esquema de espionagem da NSA</h2>
-			</a>
-			<a href="noticia2.html" class="chamada noticias normal">
+    <div class="secao">
+      <a href="noticia1.html" class="chamada noticias principal">
+        <h2>Descoberto mais um esquema de espionagem da NSA</h2>
+      </a>
+      <a href="noticia2.html" class="chamada noticias normal">
 				<h2>Deputado é pego em vídeo pedindo propina</h2>
 			</a>
 			<a href="noticia3.html" class="chamada noticias normal">
@@ -90,23 +88,23 @@
 				<h2>Jogador é flagrado em festança promíscua</h2>
 			</a>
 
-		</div>
+  </div>
 
-		<div class="secao">
-			<a href="video.html" class="tv chamada normal famosos">
-				<img src="img/tv1.jpg" alt="Roupão">
+    <div class="secao">
+      <a href="video.html" class="tv chamada normal famosos">
+        <img src="img/tv1.jpg" alt="Roupão">
 
-				<p>BBB</p>
-				<h2>Jeílson usa roupão de bolinhas verdes e é consolado</h2>
+        <p>BBB</p>
+        <h2>Jeílson usa roupão de bolinhas verdes e é consolado</h2>
 
-				<span class="bolinha"></span>
-				<span class="bolinha"></span>
-				<span class="bolinha"></span>
-			</a>
-		</div>
+        <span class="bolinha"></span>
+        <span class="bolinha"></span>
+        <span class="bolinha"></span>
+      </a>
+  </div>
 
-	</main>
+  </main>
 
-	<script src="js/menu.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
