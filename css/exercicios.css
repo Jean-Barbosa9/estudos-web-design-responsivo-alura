@@ -32,6 +32,49 @@ img {
   flex-basis: 50%;
 }
 
+@media not all and (max-width: 600px){
+  .abrir-menu, .fechar-menu {
+    display: none;
+  }
+}
+
+@media(max-width: 600px){
+  .barra-nav {
+    position: fixed;
+    top: 0;
+    left: -90%;
+    width: 90%;
+    max-width: 320px;
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    background: #f0f0f0;
+    transition: left 0.3s ease-out;
+    z-index: 1;
+  }
+
+  .menu-ativo .barra-nav {
+    left: 0;
+  }
+
+  .menu-ativo:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background: rgba(0,0,0,0.4);
+  }
+
+  .menu-principal li {
+    width: 100%;
+    padding: 1em 0;
+  }
+}
+
+
 @media (min-width: 600px) {
   html {
     font-size: 1.125em;
