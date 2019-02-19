@@ -6,6 +6,39 @@ header {
   margin: 0.4em 0;
 }
 
+.abrir-menu,.fechar-menu {
+  font-size: 1.6em;
+  text-indent: -999em;
+  background: none;
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+}
+
+.abrir-menu {
+  width: .75em;
+  height: 0;
+  margin: .5em;
+  padding-top: .125em;
+  vertical-align: middle;
+  border-top: .375em double #000;
+  border-bottom: .125em solid #000;
+}
+
+.fechar-menu {
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+
+.fechar-menu:before {
+  content: '\00D7';
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-indent: 0;
+}
+
 .logo,.secao {
   padding: 0 1%;
 }
