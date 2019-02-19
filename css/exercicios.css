@@ -21,7 +21,7 @@ header {
   margin: .5em;
   padding-top: .125em;
   vertical-align: middle;
-  border-top: .375em double #000;
+  border-top: .350em double #000;
   border-bottom: .125em solid #000;
 }
 
@@ -41,6 +41,10 @@ header {
 
 .logo,.secao {
   padding: 0 1%;
+}
+
+.logo {
+  width: 200px;
 }
 
 .destaques {
